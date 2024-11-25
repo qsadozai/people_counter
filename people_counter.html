@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="/scrimba_online_course/Eigene Projekte/Projekt_1/people_counter.css"
+		/>
+		<title>Kunden Zähler</title>
+	</head>
+	<body>
+		<div class="div1">
+			<h1>Herzlich Willkommen !</h1>
+			<h2 id="eintritt_El">Eingetretene Gäste: 0</h2>
+
+			<button
+				id="btn1"
+				onmouseover="document.getElementById('btn1').style.color = withe;"
+				onclick="eingetreten_btn()"
+			>
+				Eingetreten
+			</button>
+			<button id="btn2" onclick="speichern_btn()">Speichern</button>
+
+			<p id="zuvor">Zuvor Eingetretene Gäste :</p>
+		</div>
+		<script src="/scrimba_online_course/Eigene Projekte/Projekt_1/people_counter.js"></script>
+	</body>
+</html>
